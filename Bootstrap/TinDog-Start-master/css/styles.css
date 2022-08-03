@@ -1,0 +1,171 @@
+#title{
+    background-color:#ff4c68;
+    text-align:left;
+    
+    
+}
+
+body{
+    font-family: "Montserrat";
+    text-align:center;
+}
+
+
+h1{
+    font-family:"Montserrat";
+    
+    
+}
+.title-desc{
+    font-weight:800;
+    font-size:3.5rem;
+    line-height:1.5;
+    color:white;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.navbar{
+    padding-bottom:3rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size:2.5rem;
+}
+.nav-item{
+    padding:0 1rem;
+}
+
+.download-button{
+    margin:5% 5% 5% 0;
+}
+
+.dog-image{
+    transform:rotate(25deg);
+    width:20rem;
+    position:absolute;
+    right:20%;
+
+}
+.ficon{
+    color:#ff4c68;
+
+}
+.ficon:hover{
+    color:rgb(255, 0, 0);
+}
+
+/* FEATURES */
+
+#features{
+    background-color:#ffffff;
+    padding:5% 15%;
+    position:relative;
+    z-index:1;
+}
+
+.feature-box{
+    padding:2rem;
+    line-height:1.5;
+
+}
+
+.featureheading{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+
+    font-family:"Montserrat";
+    font-weight:550;
+}
+
+p{
+    color:grey;
+}
+
+/* TESTIMONIALS */
+
+
+#testimonials{
+    
+    background-color:#ef8172;
+    color:#ffffff;
+
+}
+
+.testimonial-image{
+    border-radius:100%;
+    width:20%;
+    margin:20px 10px;
+}
+
+.testimonial-text{
+    font-family:"Montserrat";
+    font-weight:600;
+    line-height:1.5;
+    font-size:2.5rem;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px;
+}
+
+#press{
+    background-color:#ef8172;
+}
+.carousel-item{
+    padding:10% 20%; 
+}
+/* PRICING */
+#pricing{
+    padding:100px;
+}
+.price-button{
+    width:100%;
+}
+.card{
+    height:360px;
+
+}
+.price-heading{
+    font-family:"Montserrat";
+    font-weight:600;
+}
+
+.pricing-desc{
+    font-family:"Montserrat";
+    font-weight:700;
+    font-size:3rem;
+}
+@media(max-width:1028px){
+    .dog-image{
+        position:static;
+        transform:rotate(0);
+    }
+
+}
+
+/* CTA  */
+
+#cta{
+    background-color:#ff4c68;
+    font-family:"Montserrat";
+    font-weight:800;
+    color:white;
+    padding:6%;
+   
+}
+.end-button{
+margin:4% 1%;
+
+}
+
+#footer{
+    padding: 5%;
+    line-height:2rem;
+}
+
+.ficon-below{
+    margin:10px;
+}

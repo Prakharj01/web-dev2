@@ -1,3 +1,4 @@
 node_modules/
 projects/
 .DS_Store
+/node_modules/
